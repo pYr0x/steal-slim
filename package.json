@@ -1,0 +1,33 @@
+{
+  "name": "steal-slim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pYr0x/steal-slim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pYr0x/steal-slim/issues"
+  },
+  "homepage": "https://github.com/pYr0x/steal-slim#readme",
+  "dependencies": {
+    "steal": "^2.0.0-pre.3",
+    "steal-tools": "^2.0.0-pre.0",
+    "can": "^4.2.0",
+    "steal-stache": "^4.1.0"
+  },
+  "steal": {
+    "directories": {
+      "lib": "src/js"
+    },
+    "plugins": [
+      "steal-stache"
+    ]
+  }
+}
